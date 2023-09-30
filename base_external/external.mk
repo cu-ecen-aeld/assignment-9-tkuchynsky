@@ -1,1 +1,1 @@
-include $(BR2_EXTERNAL_project_base_PATH)/package/aesd-assignments/aesd-assignments.mk
+include $(wildcard $(BR2_EXTERNAL_project_base_PATH)/package/*/*.mk)

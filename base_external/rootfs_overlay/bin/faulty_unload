@@ -1,0 +1,11 @@
+#!/bin/sh
+module="faulty"
+# Use the same name for the device as the name used for the module
+device=$module
+
+# invoke rmmod with all arguments we got
+rmmod $module || exit 1
+
+# Remove stale nodes
+
+rm -f /dev/${device}
