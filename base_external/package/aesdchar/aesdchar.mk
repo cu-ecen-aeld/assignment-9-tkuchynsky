@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESDCHAR_VERSION = 'b65c09d31e7314629f59733eb9ab9adbb4ef9e92'
+AESDCHAR_VERSION = '9a54dcd57fbd7705ffab7e1a5f3a1d102b9971fd'
 
 AESDCHAR_SITE = 'git@github.com:cu-ecen-aeld/assignments-3-and-later-tkuchynsky.git'
 AESDCHAR_SITE_METHOD = git
